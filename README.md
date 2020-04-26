@@ -3,7 +3,9 @@
 How to run ???
 
 > Step 1: git clone https://github.com/KaitoRyouga/projectMovie.git
+
 > Step 2: cd projectMovie && docker-compose up -d --build
+
 > done
 
 ------
