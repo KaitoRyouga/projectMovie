@@ -23,10 +23,10 @@ RUN rm /etc/nginx/conf.d/default.conf
 COPY nginx.conf /etc/nginx/conf.d
 
 ## Remove default nginx index page
-RUN rm -rf /usr/share/nginx/html/*
+RUN rm -rf /usr/share/nginx/*
 
 # Copy from the stahg 1
-COPY --from=builder /react-ui/build /usr/share/nginx/html
+COPY --from=builder /react-ui/build /usr/share/nginx
 
 EXPOSE 3000 80
 

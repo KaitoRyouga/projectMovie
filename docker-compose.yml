@@ -24,7 +24,7 @@ services:
   nginx:
     build: ./frontend
     volumes:
-      - ./frontend/build:/usr/share/nginx/html
+      - ./frontend/build:/usr/share/nginx
     ports:
       - 80:80
     depends_on:
