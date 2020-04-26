@@ -1,4 +1,4 @@
-"# projectMovie" 
+```"projectMovie" use reactJS, django, nginx and postgresql```
 
 How to run ???
 
