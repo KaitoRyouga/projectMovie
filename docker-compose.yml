@@ -23,8 +23,8 @@ services:
       - POSTGRES_DB=hello_django_dev
   nginx:
     build: ./frontend
-    volumes:
-      - ./frontend/build:/usr/share/nginx
+    # volumes:
+      # - ./frontend/build:/usr/share/nginx/html
     ports:
       - 80:80
     depends_on:
